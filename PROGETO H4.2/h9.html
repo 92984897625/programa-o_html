@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var con = Number(prompt("Informe um valor pra ser somado, se quiser parar digite um valor menor que 1"))
+        var cal = 0, t = 0
+        while (con > 0) {
+            cal += con
+            con = Number(prompt("Informe um valor pra ser somado"))
+            t += 1
+        }
+        alert("Amedia é\n"+cal/t)
+    </script>
+</body>
+</html>

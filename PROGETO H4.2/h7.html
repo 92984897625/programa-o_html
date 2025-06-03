@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var n = Number(prompt("Informe um numero")), so, t = "",n2 = 1
+        if (n >= 1) {so = n
+        for(so;so>=1;so--) {
+            t += ((so==n?"":" x ")+so)
+            n2 *= so
+        }
+        alert(t+" = "+n2)
+    } else {
+        alert("Erro")
+    }
+    </script>
+</body>
+</html>
