@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const nomes = []
+        do{
+            let novonome = prompt("digite um nome")
+            if(novonome == 'o')
+                break
+            if(novonome.indexOf(0) == 'a')
+                nomes.unshift(novonome)
+            else
+            nomes.push(novonome)
+            console.log(nomes)
+        }while(true)
+    </script>
+</body>
+</html>

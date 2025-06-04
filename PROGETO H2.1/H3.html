@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    var n
+        do {
+            n = prompt("informe um numero se for 0 parar")
+            if ( n == 0 ) {
+                break
+            } else if (isNaN(n)) {
+                continue
+            } 
+            alert(n + " x " + (n%2==0?"2":"3") + " = " + (n%2==0?Number(n * 2):Number(n * 3)))
+        } while(true)
+    </script>
+</body>
+</html>
