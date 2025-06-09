@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var n =Number(prompt("informe um numero")), t = n + " é um numero "
+        if ( n%2 == 0 && n != 0) {
+            t += "par e "
+            
+        } else if (n != 0) {
+            t += "ímpar e "
+        }
+        if (n > 0) {
+            t += "positivo"
+        } else if ( n < 0 ) {
+            t += "negativo"
+        } else {
+            t += "neutro"
+        }
+        alert (t)
+    </script>
+</body>
+</html>

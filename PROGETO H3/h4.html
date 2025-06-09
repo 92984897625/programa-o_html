@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var idade = Number(prompt("informe a idade do nadador")), t = "o nadador estar na categoria "
+        if ( idade >= 5 && idade <= 7 ) {
+            t += "infantil A"
+        } else if ( idade >= 8 && idade <= 10 ) {
+            t += "infantil B"
+        } else if ( idade >= 11 && idade <= 13 ) {
+            t += "juvenil A"
+        } else if ( idade >= 14 && idade <= 17 ) {
+            t += "juvenil B"
+        } else if ( idade >= 18 ) {
+            t += "adulto"
+        } else {
+            t = "não temos uma categoria pra essa fachetaria"
+        }
+        alert(t)
+    </script>
+</body>
+</html>
